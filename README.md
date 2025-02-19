@@ -1,5 +1,5 @@
 ## Project Structure
-
+```plaintext
 rag-chat-system/
 ├── src/
 │   ├── ui.py         # Streamlit UI for RAG chat system
@@ -14,7 +14,8 @@ rag-chat-system/
 ├── pyproject.toml    # Poetry dependency management
 ├── .gitignore        # Files to ignore in Git
 └── .gitignore
-
+```
+---
 
 
 # Example README.md Content
