@@ -1,6 +1,6 @@
 ## Project Structure
 
-rag_chat_system/
+rag-chat-system/
 ├── src/
 │   ├── ui.py         # Streamlit UI for RAG chat system
 │   ├── pydantic_ai.py # Pydantic-based AI agent logic with expert-level comments
@@ -12,7 +12,9 @@ rag_chat_system/
 ├── docs/             # Documentation
 ├── README.md         # Project documentation
 ├── pyproject.toml    # Poetry dependency management
-└── .gitignore        # Files to ignore in Git
+├── .gitignore        # Files to ignore in Git
+└── .gitignore
+
 
 
 # Example README.md Content
@@ -47,6 +49,11 @@ Add your OpenAI API key and other environment variables in the `.env` file.
 3. Install dependencies using Poetry:
 ```bash
 poetry install
+```
+
+4. Install dependencies for browser:
+```bash
+python -m playwright install 
 ```
 
 ### Running the Application
